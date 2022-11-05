@@ -1,0 +1,520 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  --black: #000000;
+  font-family: 'Merriweather', serif;
+}
+
+.wrapper {
+
+  
+}
+.content_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 300px 150px 200px;
+}
+.left__side {
+  max-width: 548px;
+}
+.left__text {
+  font-size: 76px;
+  line-height: 110px;
+  font-weight: 700;
+}
+.left__button {
+  margin-top: 50px;
+  
+}
+.btn {
+  width: 197px;
+  height: 71px;
+  background: #020E35;
+  box-shadow: 0px 20px 40px 5px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+
+}
+.right__side {
+}
+.img {
+  height: 500px;
+  width: 600px;
+  background-color: #FFEEF6;
+  border-radius: 200px;
+}
+span{
+  background-color: #FF5678;
+  color: #FFF;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 150px;
+  background: #FFFFFF;
+/* Menu */
+
+  box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.08);
+}
+.logo {
+}
+.ssilki a{
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 20px;
+  transition: 1s;
+  font-weight: 900;
+}
+
+.ssilki a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+}
+
+.btn1{
+  padding: 10px 40px;
+  gap: 4px;
+
+  width: 185px;
+  height: 60px;
+  color: #fff;
+  background: #020E35;
+  
+}
+
+.powered {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 300px 150px 200px;
+}
+.left__image {
+}
+.img {
+}
+.second__right{
+  display: flex;
+  flex-direction: column;
+  width: 517px;
+  height: 435px;
+
+}
+.second__title {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 62px;
+  margin-bottom: 20px;
+/* or 115% */
+
+
+color: #020E35;
+}
+.second__text {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  /* or 128% */
+  color: #020E35;
+  padding: 20px 0 0 0;
+}
+.btn2 {
+  margin-top: 60px;
+  width: 185px;
+  height: 71px;
+
+  background: #020E35;
+/* Button */
+  color: #fff;
+  box-shadow: 0px 20px 40px 5px rgba(0, 0, 0, 0.25);
+}
+
+.img1 {
+  position: relative;
+  width: 780px;
+  height: 670px;
+  left: -300px;
+  top: 200px;
+  background: #FFEEF6;
+  border-radius: 1000px;
+  z-index: 1;
+
+}
+.third {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 300px 150px 200px;
+}
+.left__third {
+
+}
+.third__title {
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 62px;
+/* identical to box height, or 115% */
+
+margin-bottom: 100px;
+color: #020E35;
+}
+.text__column {
+  display: flex;
+  width: 544px;
+  height: 110px;
+  margin-bottom: 30px;
+}
+.cifra {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+/* identical to box height, or 112% */
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--black);
+  margin: 0 40px 0 0;
+}
+.cifra__right {
+  display: flex;
+  flex-direction: column;
+}
+.cifra__title {
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+
+color: #020E35;
+margin: 0 0 20px 0;
+}
+.text__cifra {
+}
+
+.meet {
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 100px 150px;
+gap: 104px;
+}
+.meet__title {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  /* identical to box height, or 129% */
+  
+  
+  color: #020E35;
+}
+.first__row {
+  display: flex;
+}
+.row__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 519px;
+  height: 519px;
+  margin: 0 20px;
+  background: #FFFFFF;
+  border: 1px solid #B8B8B8;
+  border-radius: 50px;
+  transition: 1s;
+}
+.row__card:hover{
+  width: 539px;
+  height: 539px;
+  background: #FFFFFF;
+  border: 1px solid #B8B8B8;
+  box-shadow: 0px 20px 40px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: #FFEEF6;
+  margin: 30px 159.5px 60px 159.5px;
+}
+.name {
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+
+color: #020E35;
+}
+.job {
+  margin-top: 20px;
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height, or 128% */
+
+
+color: #020E35;
+}
+.second__row {
+  display: flex;
+}
+
+.card__container {
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.card__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 46px;
+  width: 412px;
+  height: 555px;
+
+  border: 1px solid #949494;
+  border-radius: 150px;
+
+}
+.img2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background: #FFEEF6;
+
+}
+.swiper__stars {
+  margin-top: 20px;
+}
+.swiper__text {
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+margin: 20px 0;
+/* or 128% */
+
+text-align: center;
+
+color: #020E35;
+
+}
+.card__name {
+}
+.card__job {
+}
+.mySwiper{
+
+ 
+}
+.swiper{
+  width: 100%;
+  margin-bottom: 200px;
+}
+.swiper-wrapper{
+  height: 550px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  width: 412px;
+
+  border: 1px solid #949494;
+  border-radius: 150px;
+
+}
+.swiper__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper__title{
+  margin: 100px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  /* identical to box height, or 133% */
+
+
+  color: #020E35;
+}
+
+.form__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 300px 150px 200px;
+}
+.form__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form__title {
+  width: 609px;
+  height: 144px;
+
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  /* or 133% */
+  margin: 0 0 100px 0;
+
+  color: #020E35;
+}
+.form__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.right__side {
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  
+  box-sizing: border-box;
+  width: 656px;
+  height: 70px;
+  background: #FFEEF6;
+  border: 1px solid #020E35;
+  border-radius: 10px;
+}
+
+input[type=submit] {
+  padding: 24px 80px;
+  margin: 30px 0;
+  gap: 4px;
+
+  width: 205px;
+  height: 71px;
+
+  background: #020E35;
+  /* Button */
+  color: #fff;
+  box-shadow: 0px 20px 40px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 150px;
+  gap: 134px;
+
+  width: 85%;
+  height: 40px;
+
+  background: #020E35;
+}
+.copyright {
+  width: 345px;
+  height: 18px;
+
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+
+  color: #FFFFFF;
+}
+.right__side {
+  display: flex;
+
+}
+.cookie__p {
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+margin: 0 40px;
+
+
+color: #FFFFFF;
+}
+.private_policy {
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #FFFFFF;
+}
+
+.siilka{
+  text-decoration: none;
+  transition: 0.5s;
+}
+.siilka:link, .siilka:visited {
+  color: #fff;
+}
+
+.siilka:hover{
+  color: #949494;
+}
